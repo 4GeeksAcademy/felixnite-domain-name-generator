@@ -1,11 +1,17 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+let pronoun = ["the", "our"];
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
+let adj = ["great", "big"];
 
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+let noun = ["jogger", "racoon"];
+let red = [".com", ".net", ".com.ve"];
+for (let pro of pronoun) {
+  for (let adjetivo of adj){ 
+    for (let sust of noun) {
+      for (let dns of red ) {
+
+        console.log(pro+adjetivo+sust+dns);
+      }
+    }
+   
+  }
+}
